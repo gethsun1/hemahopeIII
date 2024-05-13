@@ -1,0 +1,79 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo styles */
+.App-logo {
+  height: 40vmin;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+/* Main content styles */
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.CreateCampaignFormContainer {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.CampaignListContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Campaign card styles */
+.campaign-card {
+  width: calc(33.33% - 20px);
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.campaign-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer styles */
+.App-footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
